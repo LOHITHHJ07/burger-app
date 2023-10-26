@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.shake:hover{
+  animation: Shake 1s linear infinite; 
+}
+@keyframes Shake { 
+  0% { 
+      transform: rotate(5deg); 
+  } 
+
+  25% { 
+      transform: rotate(-6deg); 
+  } 
+
+  50% { 
+      transform: rotate(5deg); 
+  } 
+
+  75% { 
+      transform: rotate(-6deg); 
+  } 
+
+  100% { 
+      transform: rotate(5deg); 
+  } 
 }
