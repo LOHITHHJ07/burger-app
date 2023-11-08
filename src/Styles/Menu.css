@@ -1,0 +1,51 @@
+.btn1{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.btn3:hover{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+.btn{
+
+    background-color: white;
+    color: #A16207;
+}
+
+
+.Food-btn{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #A16207;
+    color: white;
+    
+}
+ 
+.Bev-btn{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #A16207;
+    color: white;
+}
+.Snack-btn{
+    background-color: #A16207;
+    color: white;
+
+}
+.card{
+    
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

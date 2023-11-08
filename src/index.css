@@ -4,12 +4,17 @@
 
 
 body {
+  width: 100vw;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+.heading{
+  text-shadow: 1px 1px 2px black;
 }
 
 code {
@@ -20,6 +25,11 @@ code {
 .shake:hover{
   animation: Shake 1s linear infinite; 
 }
+
+.menu-board{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 @keyframes Shake { 
   0% { 
       transform: rotate(5deg); 
